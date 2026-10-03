@@ -1,0 +1,957 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: black;
+}
+.logo{
+        position: relative;
+    left: 84px;
+}
+.logo h1{
+        font-weight: 300;
+    margin-top: 6px;
+    font-size: 41px;
+    color: white;
+}
+.logo p{
+        font-size: 19px;
+         color: white;
+}
+.home{
+        position: relative;
+    right: 18px;
+}
+.home a{
+        margin-left: 38px;
+    font-size: 23px;
+    text-decoration: none;
+    color: white;
+    padding: 5px 5px;
+}
+.home a:hover{
+    
+    color: #F95E14;
+    background-color: white;
+    border-radius: 5px;
+    transition: 0.7s all ease-in-out;
+
+}
+.icons{
+        position: relative;
+    right: 94px;
+     
+}
+.icons i{
+        margin-left: 12px;
+    font-size: 20px;
+     color: white;
+     padding: 3px 3px ;
+}
+.icons i:hover{
+      color: #F95E14;
+    background-color: white;
+    border-radius: 5px;
+    transition: 0.7s all ease-in-out;
+    cursor: pointer;
+}
+/* =====================hero section========================== */
+.hero-image img{
+        width:1350px;
+    margin-left: -12px;
+    height: 450px;
+}
+/* ========================services========================= */
+.two{
+    background-color: black;
+    margin-top: -12px;
+}
+.cards-one{
+        margin-left: -67px;
+        border: 1px solid transparent;
+         border-radius: 11px;
+             height: 463px;
+             margin-top: 25px;
+             width: 305px;
+}
+.cards-one img{
+           width: 304px;
+    margin-top: 0px;
+    border-radius: 14px;
+}
+.cards-one p{
+         font-size: 15px;
+    padding-left: 3px;
+    padding-top: 9px;
+    color: gray;
+}
+.cards-one a{
+    padding-left: 15px;
+    text-decoration: none;
+    color: red;
+}
+/* =====card two===== */
+.cards-two{
+        margin-left: -24px;
+        border: 1px solid transparent;
+         border-radius: 11px;
+             height: 463px;
+               margin-top: 25px;
+                 width: 307px;
+}
+.cards-two img{
+           width: 304px;
+    margin-top: 0px;
+    border-radius: 14px;
+}
+.cards-two p{
+         font-size: 15px;
+    padding-left: 3px;
+    padding-top: 9px;
+    color: gray;
+}
+.cards-two a{
+    padding-left: 15px;
+    text-decoration: none;
+    color: red;
+}
+/* ======three==========/ */
+.cards-three{
+        margin-left: 18px;
+        border: 1px solid transparent;
+         border-radius: 11px;
+             height: 463px;
+              margin-top: 25px;
+                 width: 295px;
+}
+.cards-three img{
+           width: 293px;
+    margin-top: 0px;
+    border-radius: 14px;
+}
+.cards-three p{
+         font-size: 15px;
+    padding-left: 3px;
+    padding-top: 9px;
+    color: gray;
+}
+.cards-three a{
+    padding-left: 15px;
+    text-decoration: none;
+    color: red;
+}
+/* ======four== */
+.cards-four{
+        margin-left: 47px;
+        border: 1px solid transparent;
+         border-radius: 11px;
+             height: 463px;
+              margin-top: 25px;
+                 width: 302px;
+}
+.cards-four img{
+           width: 298px;
+    margin-top: 0px;
+    border-radius: 14px;
+    /* ===animation==== */
+    
+}
+.cards-four img::before{
+     content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.7);
+
+    transform: translateY(-100%);
+    transition: transform 0.5s ease;
+}
+.cards-four img:hover::after{
+    transform: translateY(0);
+}
+.cards-four p{
+         font-size: 15px;
+    padding-left: 3px;
+    padding-top: 9px;
+    color: gray;
+}
+.cards-four a{
+    padding-left: 15px;
+    text-decoration: none;
+    color: red;
+}
+                                                                                                                                                                                                                                
+
+/* ==================about============= */
+.three{
+    margin-top: -8px;
+    background-color: black;
+    height: 500px;
+}
+.paragraph{
+    background-color: black;
+    color: gray;
+ 
+}
+.paragraph p{
+          padding-top: 50px;
+    border: 1px solid gray;
+    width: 884px;
+    margin-left: 233px;
+    padding-left: 38px;
+    padding-right: 36px;
+    position: relative;
+    top: 57px;
+    padding-bottom: 34px;
+     -webkit-animation: vibrate-1 0.3s linear infinite both;
+	        animation: vibrate-1 0.3s linear infinite both;
+}
+@-webkit-keyframes vibrate-1 {
+  0% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+  20% {
+    -webkit-transform: translate(-2px, 2px);
+            transform: translate(-2px, 2px);
+  }
+  40% {
+    -webkit-transform: translate(-2px, -2px);
+            transform: translate(-2px, -2px);
+  }
+  60% {
+    -webkit-transform: translate(2px, 2px);
+            transform: translate(2px, 2px);
+  }
+  80% {
+    -webkit-transform: translate(2px, -2px);
+            transform: translate(2px, -2px);
+  }
+  100% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+}
+@keyframes vibrate-1 {
+  0% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+  20% {
+    -webkit-transform: translate(-2px, 2px);
+            transform: translate(-2px, 2px);
+  }
+  40% {
+    -webkit-transform: translate(-2px, -2px);
+            transform: translate(-2px, -2px);
+  }
+  60% {
+    -webkit-transform: translate(2px, 2px);
+            transform: translate(2px, 2px);
+  }
+  80% {
+    -webkit-transform: translate(2px, -2px);
+            transform: translate(2px, -2px);
+  }
+  100% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+}
+/* ======================contact us=============================================================== */
+/* form======= */
+.mix{
+    background-color: black;
+        margin-top: -9px;
+}
+.mix hr{
+    color: rgb(165, 159, 159);
+    position: relative;
+        top: 41px;
+}
+.card{
+        height: 368px;
+        background-color: black;
+        color:white;
+        border: 1px solid rgb(88, 86, 86);
+}
+.go{
+    margin-top: 5px;
+}
+.go h5{
+       margin-right: 12px;
+    font-size: 24px;
+    
+}
+.go span{
+        margin-right: 21px;
+}
+.go p{
+        margin-top: 3px;
+    color: gray;
+}
+/* ========================footer========================== */
+
+footer{
+    padding: 70px 50px;
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+        margin-top: -20px;
+}
+.aboutt{
+        position: relative;
+    top: 25px;
+}
+.aboutt h3{
+            margin-bottom: 14px;
+}
+.aboutt hr{
+        color: gray;
+    width: 273px;
+    margin-bottom: 20px;
+}
+.aboutt p{
+        margin-right: 539px;
+    font-size: 14px;
+    position: relative;
+    left: 78px;
+    bottom: 73px;
+}
+.cata{
+        position: relative;
+    right: 373px;
+    bottom: 33px;
+}
+.cata h3{
+        margin-bottom: 28px;
+    /* position: relative;
+    top: 15px; */
+        /* margin-top: 41px; */
+}
+.cata hr{
+        position: relative;
+    bottom: 16px;
+}
+.looop{
+    display: flex;
+}
+.box{
+        position: relative;
+    left: 42px;
+}
+.cato{
+        position: relative;
+    right: 215px;
+    bottom: 36px;
+}
+.cato h3{
+       margin-bottom: -7px;
+    position: relative;
+    top: -15px;
+}
+.koop{
+    display: flex;
+}
+.socks{
+        position: relative;
+    top: 17px;
+}
+.boxi{
+        position: relative;
+    top: 17px;
+    left: 48px;
+}
+.connect h3{
+        position: relative;
+    bottom: 42px;
+}
+.connect hr{
+        position: relative;
+    bottom: 33px;
+}
+.connect img{
+        position: relative;
+    bottom: 22px;
+}
+.connect p{
+        position: relative;
+    bottom: 14px;
+}
+.connect input{
+        width: 165px;
+    height: 34px;
+    background-color: black;
+    border: 1px solid transparent;
+}
+.subs{
+        width: 72px;
+    height: 34px;
+    background-color: green;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    position: relative;
+    right: 1px;
+}
+
+/* ================================media query======================================================================================= */
+
+/* =========================================================
+   RESPONSIVE MEDIA QUERIES
+   Paste this code at the VERY END of your CSS file
+   ========================================================= */
+
+
+/* =========================
+   TABLET
+   768px - 991px
+   ========================= */
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    /* ===== NAVBAR ===== */
+
+    .logo {
+        left: 20px;
+    }
+
+    .logo h1 {
+        font-size: 32px;
+    }
+
+    .logo p {
+        font-size: 15px;
+    }
+
+    .home {
+        right: 0;
+    }
+
+    .home a {
+        margin-left: 10px;
+        font-size: 17px;
+    }
+
+    .icons {
+        right: 20px;
+    }
+
+    .icons i {
+        font-size: 17px;
+        margin-left: 5px;
+    }
+
+
+    /* ===== HERO ===== */
+
+    .hero-image img {
+        width: 100%;
+        height: 350px;
+        margin-left: 0;
+        object-fit: cover;
+    }
+
+
+    /* ===== SERVICES ===== */
+
+    .cards-one,
+    .cards-two,
+    .cards-three,
+    .cards-four {
+        width: 100%;
+        margin-left: 0;
+        height: auto;
+        margin-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .cards-one img,
+    .cards-two img,
+    .cards-three img,
+    .cards-four img {
+        width: 100%;
+        height: 220px;
+        object-fit: cover;
+    }
+
+
+    /* ===== ABOUT ===== */
+
+    .three {
+        height: auto;
+        padding-bottom: 80px;
+    }
+
+    .paragraph p {
+        width: 90%;
+        margin-left: 5%;
+        top: 30px;
+        padding: 30px;
+    }
+
+
+    /* ===== CONTACT ===== */
+
+    .card {
+        height: auto;
+        min-height: 368px;
+    }
+
+
+    /* ===== FOOTER ===== */
+
+    footer {
+        padding: 50px 30px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+
+    .aboutt,
+    .cata,
+    .cato,
+    .connect {
+        position: static;
+        margin: 20px;
+    }
+
+    .aboutt p {
+        margin-right: 0;
+        left: 0;
+        bottom: 0;
+    }
+
+    .aboutt img {
+        max-width: 100%;
+    }
+}
+
+
+/* =========================================================
+   MOBILE
+   767px AND BELOW
+   ========================================================= */
+
+@media (max-width: 767px) {
+
+    /* ================= NAVBAR ================= */
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 15px 0 20px;
+    }
+
+    .logo {
+        position: static;
+        text-align: center;
+    }
+
+    .logo h1 {
+        font-size: 32px;
+        margin-top: 0;
+    }
+
+    .logo p {
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+
+    .home {
+        position: static;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 5px;
+    }
+
+    .home a {
+        margin-left: 0;
+        font-size: 16px;
+        padding: 5px 8px;
+    }
+
+    .icons {
+        position: static;
+        margin-top: 12px;
+    }
+
+    .icons i {
+        font-size: 18px;
+        margin-left: 8px;
+    }
+
+
+    /* ================= HERO ================= */
+
+    .hero-image {
+        width: 100%;
+    }
+
+    .hero-image img {
+        width: 100%;
+        height: 250px;
+        margin-left: 0;
+        object-fit: cover;
+        display: block;
+    }
+
+
+    /* ================= SERVICES ================= */
+
+    .two {
+        margin-top: -1px;
+        padding-bottom: 30px;
+    }
+
+    .cards-session {
+        width: 100%;
+    }
+
+    .cards-session .row {
+        margin: 0;
+    }
+
+    .cards-session .col-md-3 {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .cards-one,
+    .cards-two,
+    .cards-three,
+    .cards-four {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        margin-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .cards-one img,
+    .cards-two img,
+    .cards-three img,
+    .cards-four img {
+        width: 100%;
+        height: 230px;
+        object-fit: cover;
+        display: block;
+    }
+
+    .cards-one p,
+    .cards-two p,
+    .cards-three p,
+    .cards-four p {
+        font-size: 14px;
+        padding: 12px 5px 5px;
+        line-height: 1.6;
+    }
+
+    .cards-one a,
+    .cards-two a,
+    .cards-three a,
+    .cards-four a {
+        padding-left: 5px;
+    }
+
+
+    /* ================= ABOUT ================= */
+
+    .three {
+        height: auto;
+        min-height: 500px;
+        padding-bottom: 60px;
+    }
+
+    .paragraph {
+        width: 100%;
+    }
+
+    .paragraph p {
+        width: 90%;
+        margin-left: 5%;
+        top: 30px;
+        padding: 25px 20px;
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+
+    /* ================= CONTACT ================= */
+
+    .mix {
+        margin-top: -1px;
+    }
+
+    .mix .container {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .mix .row {
+        margin: 0;
+    }
+
+    .mix .col-md-6 {
+        width: 100%;
+        padding: 0;
+    }
+
+    .mix form {
+        margin-top: 25px !important;
+    }
+
+    .card {
+        width: 100%;
+        height: auto;
+        min-height: 0;
+        margin-top: 20px !important;
+        margin-bottom: 30px;
+        padding: 25px !important;
+    }
+
+    .go {
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .go h5 {
+        font-size: 19px;
+        margin-right: 8px;
+    }
+
+    .go span {
+        margin-right: 10px;
+    }
+
+    .go p {
+        font-size: 14px;
+    }
+
+
+    /* ================= FOOTER ================= */
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 50px 20px;
+        margin-top: 0;
+    }
+
+    .aboutt,
+    .cata,
+    .cato,
+    .connect {
+        position: static;
+        width: 100%;
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    .aboutt h3,
+    .cata h3,
+    .cato h3,
+    .connect h3 {
+        position: static;
+        margin-bottom: 15px;
+    }
+
+    .aboutt hr,
+    .cata hr,
+    .cato hr,
+    .connect hr {
+        position: static;
+        width: 100%;
+        margin: 10px auto 20px;
+    }
+
+    .aboutt img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .aboutt p {
+        margin-right: 0;
+        left: 0;
+        bottom: 0;
+        position: static;
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .looop,
+    .koop {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        text-align: left;
+    }
+
+    .box,
+    .socks,
+    .boxi {
+        position: static;
+    }
+
+    .cata,
+    .cato {
+        right: 0;
+        bottom: 0;
+    }
+
+    .connect img {
+        position: static;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .connect p {
+        position: static;
+    }
+
+    .connect input {
+        width: 60%;
+        max-width: 200px;
+    }
+
+    .subs {
+        width: 85px;
+    }
+}
+
+
+/* =========================================================
+   SMALL MOBILE
+   480px AND BELOW
+   ========================================================= */
+
+@media (max-width: 480px) {
+
+    /* ===== NAVBAR ===== */
+
+    .logo h1 {
+        font-size: 28px;
+    }
+
+    .logo p {
+        font-size: 13px;
+    }
+
+    .home a {
+        font-size: 14px;
+        padding: 5px 6px;
+    }
+
+    .icons i {
+        font-size: 16px;
+    }
+
+
+    /* ===== HERO ===== */
+
+    .hero-image img {
+        height: 200px;
+    }
+
+
+    /* ===== SECTION HEADINGS ===== */
+
+    h4 {
+        height: 65px !important;
+        padding-top: 25px !important;
+        font-size: 18px;
+    }
+
+
+    /* ===== SERVICE CARDS ===== */
+
+    .cards-session .col-md-3 {
+        padding: 0 15px;
+    }
+
+    .cards-one,
+    .cards-two,
+    .cards-three,
+    .cards-four {
+        margin-top: 20px;
+    }
+
+    .cards-one img,
+    .cards-two img,
+    .cards-three img,
+    .cards-four img {
+        height: 200px;
+    }
+
+
+    /* ===== ABOUT ===== */
+
+    .three {
+        min-height: 0;
+        padding-bottom: 60px;
+    }
+
+    .paragraph p {
+        width: 92%;
+        margin-left: 4%;
+        padding: 20px 15px;
+        font-size: 13px;
+        line-height: 1.6;
+    }
+
+
+    /* ===== CONTACT ===== */
+
+    .mix .container {
+        padding: 0 15px;
+    }
+
+    .card {
+        padding: 20px !important;
+    }
+
+    .card h2 {
+        font-size: 25px;
+    }
+
+    .go h5 {
+        font-size: 17px;
+    }
+
+    .go p {
+        font-size: 13px;
+    }
+
+
+    /* ===== FOOTER ===== */
+
+    footer {
+        padding: 40px 15px;
+    }
+
+    .aboutt,
+    .cata,
+    .cato,
+    .connect {
+        width: 100%;
+    }
+
+    .looop,
+    .koop {
+        gap: 20px;
+    }
+
+    .connect input {
+        width: 60%;
+    }
+}
+
+
+
